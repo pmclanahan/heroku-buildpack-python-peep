@@ -1,4 +1,9 @@
 # Heroku buildpack: Python
+
+## DEPRECATED
+
+The [official heroku python buildpack](https://github.com/heroku/heroku-buildpack-python) has pip 8 included by default. [You should use it an the new requirements file with hashes format](https://github.com/erikrose/peep/wiki/UpgradeToPip8).
+
 ![python-banner](https://cloud.githubusercontent.com/assets/51578/8914205/ecf2047c-346b-11e5-98c5-42547f9f4410.jpg)
 
 This is a fork of the [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Python apps, powered by [pip](http://www.pip-installer.org/) and [peep](https://github.com/erikrose/peep).
